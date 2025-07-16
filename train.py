@@ -4,7 +4,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/v8/yolov8s.yaml')
-    model.load('yolov8s.pt') # loading pretrain weights # 从 YAML加载 然后再加载权重
+    model.load('yolov8s.pt') # loading pretrain weights 
     model.train(data='',
                 cache=False,
                 imgsz=640,
