@@ -4,7 +4,7 @@ This is the implementation code for the paper "LGPN: A Lightweight Algorithm for
 The model is built based on YOLOv8s, using the pretrained configuration file yolov8s.pt.
 
 Software Platform
-CUDA 11.3https://github.com/goforit96/LGPN
+CUDA 11.3
 PyTorch 1.12.0
 Python 3.8
 
