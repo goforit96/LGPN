@@ -33,8 +33,6 @@ if __name__ == '__main__':
     
         data='your_data.yaml',
         
-        cache=False,
-        
         imgsz=640,
         
         epochs=,          # specify number of epochs
@@ -42,8 +40,6 @@ if __name__ == '__main__':
         batch=,           # specify batch size
         
         close_mosaic=,    # optionally close mosaic augmentation
-        
-        workers=0,
         
         device='',        # specify CUDA device (e.g. '0')
         
