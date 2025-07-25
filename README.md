@@ -24,6 +24,7 @@ To perform training, create a Python file named train.py and input the following
 from ultralytics import YOLO
 
 if __name__ == '__main__':
+
     model = YOLO('ultralytics/cfg/models/v8/yolov8s.yaml')
     
     model.load('yolov8s.pt')  # loading pre-trained weights
