@@ -3,6 +3,7 @@ Introduction
 This is the implementation code for the paper "LGPN: A Lightweight Algorithm for Enhanced Dental Lesion Detection in Panoramic X-rays."
 The model is built based on YOLOv8s, using the pretrained configuration file yolov8s.pt.
 
+
 Software Platform
 
 CUDA 11.3
@@ -10,6 +11,7 @@ CUDA 11.3
 PyTorch 1.12.0
 
 Python 3.8
+
 
 Training and Testing
 
@@ -22,7 +24,6 @@ To perform training, create a Python file named train.py and input the following
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-
     model = YOLO('ultralytics/cfg/models/v8/yolov8s.yaml')
     
     model.load('yolov8s.pt')  # loading pre-trained weights
@@ -60,6 +61,7 @@ if __name__ == '__main__':
     )
 
 Some of the parameters (like epochs, batch, device, etc.) should be specified according to your specific needs.
+
 
 Testing
 
